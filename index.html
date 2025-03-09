@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6598513151197899"
-     crossorigin="anonymous"></script>
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff8c00, #2c2c2c);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        .message {
+            font-size: 2rem;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://www.horseywin.github.io/bio";
+        }, 3000);
+    </script>
+</head>
+<body>
+    <div class="message">REDIRECTING TO BIO PAGE</div>
+</body>
 </html>
